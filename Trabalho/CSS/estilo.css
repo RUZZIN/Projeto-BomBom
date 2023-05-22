@@ -1,0 +1,186 @@
+/*Import de fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-image: url(imagens/imagen-bombom.png);
+    width: 100%;
+}
+
+/* Inicio da navbar */
+
+#navbar-bombom-inicio nav div span {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+/* Fundo da navbar */
+#navbar-bombom-inicio {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+/*cor "bom"bom */
+#span-navbar {
+    color: #fff;
+}
+/* Fim da navbar */
+
+/* Inicio apresentação de bombom */
+/* Fundo apresentação bombom */
+#inicio-tela-apresentacao {
+    height: 500px;
+}
+
+.fundo-apresentacao-bombom {
+    background-image: url(imagens/fundo_bombom_inicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-size: contain;
+    height: 375px;
+    margin: 0 auto;
+    
+}
+
+/*Texto apresentação bombom h2 */
+.fundo-apresentacao-bombom h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Pacifico', cursive; /* Fonte */
+}
+
+/* Media Query -> fundo-apresentacao-bombom h2 */
+@media (max-width: 575.98px) {
+    .texto-apresentacao {
+        font-size: 20px;
+        padding-top: 135px;
+    }
+    #inicio-tela-apresentacao {
+        margin-top: 80px;
+        height: 300px; 
+    }
+    .label-custo-unidade {
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .texto-apresentacao {
+        font-size: 23px;
+        padding-top: 125px;
+    }
+}
+
+@media (min-width: 768px) {
+    .texto-apresentacao {
+        font-size: 35,7px;
+        padding-top: 105px;
+    }
+}
+
+/* Fim apresentação de bombom */
+
+/* Inicio fundo ingredientes bombom */
+#tela-fundo-ingredientes {
+    height: 920px;
+}
+.fundo-ingredientes-bombom {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: #FF8BEF;
+    max-width: 700px;
+}
+
+label {
+   padding-top: 7px;
+}
+
+.label-dos-ingredientes {
+    color: #fff;
+}
+
+.label-das-gramas {
+    color: #fff;
+}
+
+.input-receber-dados {
+    padding-top: 30px;
+}
+
+.cursor-input {
+    cursor: pointer;
+}
+
+.cursor-no-input {
+    cursor: default;
+}
+
+.titulo-bombom-apresentacao {
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+}
+/* Paragrafo do inicio dos ingredientes */
+.paragrafo-bombom-apresentacao {
+    text-align: center;
+    color: #fff;
+}
+
+/*cor bom"bom" */
+span {
+    color: #ff33bd;
+}
+
+#button-ingredientes-fundo-bombom {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#botao-ingredientes-bombom {
+    background: #ff33bd; 
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+#botao-ingredientes-bombom:hover {
+    background: rgb(231, 46, 206);
+    color: #fff;
+}
+
+/* Fim fundo ingredientes bombom */
+
+/* Inicio do rodapé */
+
+footer {
+    position: relative;
+    bottom: 0;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 10px; /* h3 -> Alunos */
+}
+
+#rodape-nome-alunos {
+    position: relative;
+    padding-top: 25px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+/* Fim do rodapé */
+
